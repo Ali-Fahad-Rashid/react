@@ -1,0 +1,97 @@
+.progress-bar{
+  height: 5px;
+  background: red;
+  margin-top: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+* {
+  font-family: 'Quicksand';
+  margin: 0;
+
+}
+.m{
+
+  margin: 1px;
+}
+
+::-webkit-scrollbar{ width: 7px; background: rgb(142, 145, 132);}
+::-webkit-scrollbar-track{ border-radius: 7px; background: rgb(73, 71, 67);}
+::-webkit-scrollbar-thumb{ border-radius: 7px; background: rgb(141, 32, 32);}
+::-webkit-scrollbar-thumb:hover {  background: rgb(141, 43, 43);}
+
+.logo{
+
+  animation: logo 5s linear 2s infinite alternate;
+
+}
+@keyframes logo {
+0% {
+  transform: scale(1.0);
+  color: sandybrown;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+  
+  15%  {
+    transform: scale(1.1);
+    color: sienna;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+  }
+
+  50% {
+    transform: scale(1.2);
+    color: sienna;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+  }
+
+  70% {
+
+    transform: scale(1.1);
+    color: sienna;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+  }
+
+  100% {
+
+    transform: scale(1.1);
+    color: sandybrown;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+  }
+}
+
+.cover {
+  background: url(have.jpg) fixed;
+  background-size: 100% 100%;
+  box-sizing: border-box; 
+
+  border-radius: 0px 0px 150px 150px;
+  height:650px; 
+
+}
+@media only screen and (max-width: 800px){
+  .cover {
+    
+    height:300px; 
+  }}
+
+  .footer {
+    clear: both;
+    position: relative;
+    bottom: 0;
+  }
+
+  .splash{
+    background: url(1.gif) fixed;
+    background-size: 100% 100%;
+    box-sizing: border-box; 
+  
+    border-radius: 0px 0px 150px 150px;
+    height:650px; 
+
+  }
